@@ -9,6 +9,8 @@ public class Wrapper {
         System.out.println(x3);
         int y = x3; // это мы класс распаковали и теперь он является обычным примитивом
 
+        Boolean.getBoolean("True");
+
         //Классы Double, Float, Long, Integer, Short, Byte, Character, Boolen и у каждого из них есть соответствующий примитивный тип данных
 
     }
