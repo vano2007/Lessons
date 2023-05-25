@@ -8,7 +8,7 @@ public class WriteObject{
          Person person1 = new Person(1,"Bob");
          Person person2 = new Person(2,"Mike");
 
-        try {
+         try {
             FileOutputStream fos = new FileOutputStream("people.bin");
             ObjectOutputStream oos = new ObjectOutputStream(fos);
 
